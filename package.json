@@ -21,6 +21,7 @@
     "hexagonal architecture"
   ],
   "author": "borja.tur@gmail.com",
+  "homepage": "https://borjatur.com/2023/03/07/yet-another-vision-of-clean-architecture/",
   "license": "ISC",
   "devDependencies": {
     "@shelf/jest-mongodb": "^4.1.6",
