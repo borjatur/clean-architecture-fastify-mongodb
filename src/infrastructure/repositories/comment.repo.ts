@@ -16,7 +16,7 @@ export class CommentRepository implements ICommentRepository {
   }
 
   async putComment (id: string, commentPayload: CommentPayload): Promise<Comment | undefined> {
-    const comment = await commentDAO.findByIdAndUpdate(id, commentPayload)
+    const comment = await commentDAO.findByIdAndUpdate(id, commentPayload, { new: true })
     if (comment) {
       return comment
     }
